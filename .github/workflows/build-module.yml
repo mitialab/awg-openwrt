@@ -12,17 +12,17 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "25.05.5"
+          - tag: "23.05.5"
             pkgarch: aarch64_generic
             target: rockchip
             subtarget: armv8
             vermagic: "2d23b8a4ca7c461cce81c262d535bcf7"
-          - tag: "25.05.5"
+          - tag: "23.05.5"
             pkgarch: aarch64_generic
             target: rockchip
             subtarget: armv8
             vermagic: "2d23b8a4ca7c461cce81c262d535bcf7"
-          - tag: "25.05.5"
+          - tag: "23.05.5"
             pkgarch: aarch64_generic
             target: rockchip
             subtarget: armv8
